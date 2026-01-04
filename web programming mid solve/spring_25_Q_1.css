@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#ffffff;
+}
+
+/* TOP BAR */
+.top-bar{
+    text-align:center;
+    padding:8px;
+    border-bottom:1px dashed #999;
+    font-size:14px;
+}
+
+/* NAVBAR */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    display:flex;
+    gap:6px;
+}
+
+.logo .red{
+    color:red;
+}
+
+.menu{
+    display:flex;
+    gap:18px;
+    font-size:14px;
+}
+
+.nav-right{
+    display:flex;
+    gap:15px;
+    align-items:center;
+    font-size:14px;
+}
+
+.signup{
+    background:#ff3d00;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    cursor:pointer;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:50px 0 30px;
+    background:#eef4f3;
+}
+
+.hero-small{
+    font-size:16px;
+    margin-bottom:10px;
+}
+
+.hero-title{
+    font-size:44px;
+    font-weight:bold;
+}
+
+/* CARDS */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+    background:#eef4f3;
+}
+
+.card{
+    background:white;
+    border:4px solid black;
+    width:220px;
+    text-align:center;
+    padding:20px;
+}
+
+.card-title{
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:36px;
+    font-weight:bold;
+}
+
+.small{
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+.blue-btn{
+    background:#1d78f0;
+    color:white;
+    border:none;
+    padding:10px;
+    width:100%;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.note{
+    font-size:12px;
+    margin-top:10px;
+}
+
+/* COLORS */
+.purple{ color:#4358b8; }
+.green{ color:#075627; }
+.orange{ color:#d84400; }
+.teal{ color:#1372aa; }
+.navy{ color:#206fb4; }
+
+/* BOTTOM */
+.bottom{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.bottom-title{
+    font-size:32px;
+    font-weight:bold;
+}
+
+.bottom-text{
+    margin:15px 0;
+    font-size:16px;
+}
+
+.link-btn{
+    background:none;
+    border:none;
+    color:#1d78f0;
+    font-size:16px;
+    cursor:pointer;
+}

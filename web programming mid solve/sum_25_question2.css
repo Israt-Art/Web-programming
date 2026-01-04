@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+     background:#e6e6e6;
+     padding:10px 30px;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+     gap:15px;
+     font-weight: bold;
+     color:#003366;
+}
+
+.container{
+    display: flex;
+    min-height: 80vh;
+}
+
+.sidebar{
+    width:25%;
+    padding: 20px;
+    background:linear-gradient(#7ff0da,#b0e0ff); ;
+}
+
+.sidebar-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.semester-item{
+    background: #bdf5ec;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.notice-box{
+   background: white;
+   padding: 15px;
+   border-radius: 10px;
+
+}
+
+.notice-box button{
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: linear-gradient(to right,blue,gold);
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+
+.content{
+    width: 75%;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+    border:1px solid #ddd;
+    background:linear-gradient(to right,#d18b5f,#cfcfcf,#d18b5f);
+}
+
+.label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-btn{
+    margin-top: 15px;
+    padding: 10px;
+     background:linear-gradient(to right,blue,gold);
+     color:white;
+     border: none;
+     border-radius: 5px;
+
+}
+
+.footer{
+    text-align: center;
+    padding: 15px;
+     background:linear-gradient(to right,blue,gold);
+     color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
