@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elderly Care Platform</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f3f3f3;
+        }
+        header{
+            background: #004466;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        section{
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        .emergency-btn{
+            background: red;
+            color: white;
+            padding: 15px 20px;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .submit-btn{
+            background: #0066aa;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .floor-box{
+            padding: 10px;
+            background: #ffe6e6;
+            border-left: 5px solid red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Elderly Care Resistant Platform</h1>
+    <p>Providing Care, Safety & Health Monitoring</p>
+</header>
+
+
+<!-- Food Customization Section -->
+<section>
+    <h2>Food Customization (Sugar/Salt Control)</h2>
+
+    <form>
+        <label>Patient Name:</label><br>
+        <input type="text" placeholder="Enter patient name" required><br><br>
+
+        <label>Sugar Amount (g):</label><br>
+        <input type="number" placeholder="Enter required sugar amount"><br><br>
+
+        <label>Salt Amount (g):</label><br>
+        <input type="number" placeholder="Enter required salt amount"><br><br>
+
+        <button class="submit-btn">Submit Requirements</button>
+    </form>
+</section>
+
+
+
+<!-- Emergency Control Buttons on Each Floor -->
+<section>
+    <h2>Emergency Button (Each Floor)</h2>
+
+    <div class="floor-box">
+        <h3>Floor 1</h3>
+        <button class="emergency-btn">🚨 Emergency</button>
+    </div>
+
+    <div class="floor-box">
+        <h3>Floor 2</h3>
+        <button class="emergency-btn">🚨 Emergency</button>
+    </div>
+
+    <div class="floor-box">
+        <h3>Floor 3</h3>
+        <button class="emergency-btn">🚨 Emergency</button>
+    </div>
+</section>
+
+
+
+<!-- Health History -->
+<section>
+    <h2>Health Tracking History</h2>
+    <textarea rows="6" style="width:100%;" placeholder="Daily health updates, sugar level, BP history..."></textarea>
+</section>
+
+<!-- Incident / Occurrence History -->
+<section>
+    <h2>Incident / Occurrence History</h2>
+    <textarea rows="6" style="width:100%;" placeholder="Any falls, emergency button usage, complaints..."></textarea>
+</section>
+
+
+
+<!-- Optional Features -->
+<section>
+    <h2>Optional Features</h2>
+
+    <label>Give Rating:</label><br>
+    <select>
+        <option>⭐</option>
+        <option>⭐⭐</option>
+        <option>⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐</option>
+        <option>⭐⭐⭐⭐⭐</option>
+    </select><br><br>
+
+    <label>Feedback Message:</label><br>
+    <textarea rows="4" style="width:100%;"></textarea><br><br>
+
+    <button class="submit-btn">Submit Feedback</button>
+
+    <hr>
+    <h3>Chat Option</h3>
+    <input type="text" placeholder="Type message..." style="width:80%; padding:8px;">
+    <button class="submit-btn">Send</button>
+</section>
+
+
+
+<!-- Payment & Premium Package -->
+<section>
+    <h2>Payment & Premium Package</h2>
+    <p>Our system offers full billing transparency.</p>
+
+    <h3>Premium Package Includes:</h3>
+    <ul>
+        <li>24/7 health monitoring</li>
+        <li>Instant emergency response</li>
+        <li>Nutritional guidance & diet customization</li>
+        <li>Regular medical reports</li>
+    </ul>
+
+    <button class="submit-btn">Buy Premium Package</button>
+</section>
+
+
+<footer style="text-align:center; padding:20px; background:#004466; color:white;">
+    © 2025 Elderly Care Platform | All Rights Reserved
+</footer>
+
+</body>
+</html>
