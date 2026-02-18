@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2F4F7;
+}
+#left{
+    width: 500px;
+    height: 460px;
+}
+#facebook{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    color: #0866FF;
+    font-weight: bold;
+    margin-top:100px;
+    margin-left:20px;
+}
+#subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin-left:20px;
+}
+#right{
+    width: 420px;
+    height: 460px;
+    margin-left: 20px;
+}
+#parent{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 340px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top:60px;
+    margin-left:20px;
+    box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.3);
+}
+.txt{
+    width: 340px;
+    height: 42px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+::placeholder{
+    font-size: 15px;
+    padding-left:12px;
+}
+#btn1{
+    background-color: #0866FF;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 340px;
+    height: 42px;
+}
+#linkurl{
+    color: #0866FF;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#hr1{
+    color: rgba(0,0,0,0.2);
+}
+#btn2{
+    background-color: #36A420;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 42px;
+}
+td{
+    padding-bottom: 15px;
+}
